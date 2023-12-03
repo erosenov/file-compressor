@@ -1,0 +1,84 @@
+= File Compressor
+:pagenums:
+:sectnums:
+:toc:
+:toclevels: 3
+
+== System Architecture
+
+=== Technologies
+ - Python 3.11
+
+=== IDE
+- PyCharm
+
+=== Coding standards
+- PEP 8
+- Google Python Style Guide
+
+=== Version control
+- Git (Github)
+
+=== Release Management
+- Semantic versioning with major, minor, hotfix, and build numbers
+
+=== Issue tracking
+- Github Issues and Projects
+
+== Deployment Strategy
+
+- Standalone application as executable Python script
+
+== Functional Requirements
+
+- Console application (CLI)
+- GUI
+- User can enter archive format
+- User can enter compression method
+- User can enter compression level
+- User can enter word size
+- User can enter dictionary size
+- User can enter the maximum number of CPU threads
+- User can enter split the volume size in bytes
+- User can see application instructions
+- User can see application statistics (compression ratio, ETA, ...)
+- User can see application's about
+
+== Non-Functional Requirements
+
+- Application shall have user documentation
+- Application should be cross-platform
+- Application should be compatible with Python 2.7
+- Application shall not crash on invalid data
+- Application must be able to run at high performance.
+
+== Architecture and Design
+
+=== Architecture
+- Application shall be object-oriented (OOP)
+- Application shall be layered with Front-End, Back-End and Data layers
+- Application shall be monolithic with all layers in one application
+- Application shall be MVP (Model-View-Presenter)
+
+
+=== Back-End
+
+==== Class Diagram
+
+==== Sequence Diagram
+
+==== State Diagram
+
+==== Activity Diagram
+
+==== Use Case Diagram
+
+=== Front-End
+
+=== Data Layer
+
+== Development Model
+
+- Agile
+
+== Testing
